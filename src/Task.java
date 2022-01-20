@@ -9,4 +9,9 @@ public class Task {
         this.taskDuration = taskDuration;
         this.taskName = name ;
     }
+    public void printTask(){
+        System.out.println(this.taskName);
+        System.out.println(this.taskDuration);
+        System.out.println(this.type);
+    }
 }
